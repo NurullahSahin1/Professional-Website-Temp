@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Electrolize&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(12, 23, 41);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid greenyellow;
+    box-shadow: 1px 10px 14px -2px rgba(108, 157, 34, 0.83);
+    -webkit-box-shadow: 1px 10px 14px -2px rgba(108, 157, 34, 0.83);
+    -moz-box-shadow: 1px 10px 14px -2px rgba(108, 157, 34, 0.83);
+    position: fixed;
+    z-index: 5;
+
+}
+
+nav h1 {
+    font-size: 30px;
+    font-family: 'electrolize', sans-serif;
+    margin-left: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    height: 100%;
+
+}
+
+.navbar-right a {
+    margin: 20px 15px;
+    padding: 4px 20px;
+    font-family: 'Agbalumo', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    box-sizing: border-box;
+
+}
+
+.navbar-right a:hover {
+    background-color: cadetblue;
+}
+
+
+.navbar-right .btn {
+    height: 80%;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-right .btn .bi {
+    font-size: 20px;
+    color: chartreuse;
+    border: none;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+
+section {
+    padding: 100px 0;
+    background: cadetblue;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: left;
+    margin: 20px 30px 0;
+    line-height: 1.7;
+}
+
+.section-title h1 {
+    text-align: left;
+    font-size: 50px;
+    color: brown;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bolder;
+    padding-left: 15px;
+
+}
+
+.section-title h2 {
+    position: relative;
+    text-align: left;
+    color: rgb(1, 87, 1);
+    font-size: 30px;
+    transition: all .4s ease-in-out;
+    padding-left: 15px;
+}
+
+.section-title p {
+    font-size: 20px;
+    font-family: 'Agbalumo', sans-serif;
+    color: #b2aeae;
+    padding-left: 15px;
+
+}
+
+.section-btn {
+
+    font-size: 15px;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 0 0 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'electrolize', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.section-title h2:hover,
+.section-btn:hover {
+    background-color: darkcyan;
+    border: 1px solid #fff;
+
+}
+
+.yazılımlar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.yazılımlar .yazılımlar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 30px;
+}
+.yazılımlar .yazılımlar-row .section-title{
+    flex-basis: 100%;
+}
+.yazılımlar .image-container {
+    margin-right: 10%;
+    flex-basis: 30%;
+
+}
+
+.yazılımlar .image-container img {
+    width: 100%;
+    background: transparent;
+
+}
+
+.programlar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programlar h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.programlar h1 a {
+    color: darkslategrey;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+}
+
+.programlar h1:hover {
+    background-color: darkcyan;
+    border: 1px solid #fff;
+
+
+
+}
+
+.programlar .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-basis: 30%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.programlar .row .col {
+    width: 80%;
+    margin: 0 20px;
+    padding: 20px;
+    background: rgba(193, 188, 188, 0.107);
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    border-radius: 7px;
+
+}
+
+.programlar .row .col:hover {
+    border: 1px solid #fff;
+}
+
+
+.programlar .row .col h2 {
+    font-size: 30px;
+    font-family: 'electrolize', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: darkred;
+
+}
+
+.programlar .row .col .bi {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: #fff;
+
+}
+
+.programlar .row .col p {
+    font-family: 'poppin', sans-serif;
+    font-size: 18px;
+    color: #484343;
+    line-height: 1.3;
+
+}
+
+.sertifikalar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sertifikalar h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.sertifikalar h1 a {
+    color: darkslategrey;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    margin-bottom: 40px;
+
+}
+
+.sertifikalar h1:hover {
+    background-color: darkcyan;
+    border: 1px solid #fff;
+
+}
+
+.sertifikalar .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sertifikalar .row .col {
+    flex-basis: 21%;
+    width: 100%;
+    height: 100%;
+    margin: 0 15px;
+    padding: 10px;
+    background: rgba(193, 188, 188, 0.107);
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    border-radius: 7px;
+    min-width: 200px;
+    margin-top: 15px;
+
+}
+
+.sertifikalar .row .col:hover {
+    border: 1px solid #fff;
+}
+
+.sertifikalar .row .col img {
+    width: 100%;
+    height: 100%;
+}
+
+.sertifikalar .row .col .content {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.sertifikalar .row .col .content .icons {
+    text-align: right;
+}
+
+
+.sertifikalar .row .col .content h5 {
+    font-family: 'poppin', sans-serif;
+    font-size: 18px;
+    color: #e1dcdc;
+
+}
+
+.sertifikalar .row .col .content .icons {
+    color: gold;
+    font-size: 20px;
+}
+
+.sertifikalar .row .col h3 {
+    font-family: 'electrolize', sans-serif;
+    font-size: 22px;
+    color: #e1dcdc;
+    margin-top: 10px;
+}
+
+/* basarilar başlangıç */
+
+
+.basarilar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basarilar h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.basarilar h1 a {
+    color: darkslategrey;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+}
+
+.basarilar h1:hover {
+    background-color: darkcyan;
+    border: 1px solid #fff;
+}
+
+.basarilar .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px auto 0 auto;
+}
+
+.basarilar .image-container {
+    flex-basis: 40%;
+}
+
+.basarilar .image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+
+}
+
+.basarilar .card-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+    align-items: center;
+    flex-basis: 46%;
+
+}
+
+.basarilar .card-container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.basarilar .card-container .card:hover {
+    opacity: .6;
+    transform: scale(1.02);
+}
+
+.basarilar .card-container .card h2 {
+    font-family: 'poppin', sans-serif;
+    font-size: 24px;
+    color: #e1dcdc;
+}
+
+.basarilar .card-container .card p {
+    font-family: 'electrolize', sans-serif;
+    font-size: 22px;
+    color: #e1dcdc;
+    margin-top: 10px;
+}
+
+
+#card1 {
+    background-color: firebrick;
+    text-align: center;
+}
+
+#card2 {
+    background-color: rgb(21, 88, 9);
+    text-align: center;
+}
+
+#card3 {
+    background-color: chocolate;
+    text-align: center;
+}
+
+#card4 {
+    background-color: rgb(116, 79, 2);
+    text-align: center;
+}
+
+
+/* basarilar bitiş */
+
+
+
+
+
+
+.referanslar h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.referanslar h1 a {
+    color: darkslategrey;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+}
+
+.referanslar h1:hover {
+    background-color: darkcyan;
+    border: 1px solid #fff;
+}
+
+.referanslar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.referanslar .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.referanslar .card-container .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.referanslar .card-container .card .image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 50%;
+    height: 200px;
+    padding: 10px 0;
+}
+
+.referanslar .card-container .card img {
+    width: 100px;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.referanslar .card-container .card p {
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    color: #e1dcdc;
+    line-height: 1.8;
+}
+
+.referanslar .card-container .card .image-box .icons {
+    color: gold;
+    font-size: 20px;
+}
+
+.referanslar .card-container .card h4 {
+    font-family: 'electrolize', sans-serif;
+    font-size: 20px;
+    color: #430f0f;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.referanslar .card-container .card h4:hover {
+    text-decoration: underline;
+}
+
+
+.iletisim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.iletisim .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.iletisim .container .image {
+    width: 100%;
+    height: 100%;
+    flex-basis: 45%;
+
+
+}
+
+.iletisim .container .image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+
+}
+
+.iletisim .container h1 {
+    text-align: center;
+    color: #750101;
+    text-shadow: 1px 1px 0 rgba(white, 1);
+}
+
+.iletisim .container .form-alanı {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%;
+    height: 100%;
+    padding: 70px;
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+form input,
+textarea {
+    border: 1px solid #fff;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    box-shadow: 0 1px 1px rgba(black, 0.1);
+    resize: none;
+    background: rgba(15, 14, 14, 0.096);
+    cursor: pointer;
+
+}
+
+
+form input,
+textarea:focus {
+    box-shadow: 0 0px 2px rgba(20, 20, 20);
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+
+#input-submit {
+    color: white;
+    background: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+#input-submit:hover {
+    box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6);
+}
+
+
+textarea {
+    height: 126px;
+}
+
+
+
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right {
+    width: 50%;
+}
+
+.left {
+    margin-right: 2%;
+}
+
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+/* footer area */
+
+footer {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+footer a{
+  color:#fff;
+  
+}
+
+footer a:hover{
+
+  text-decoration:none;
+}
+
+.social-icons{
+    margin-top: 10px;
+
+}
+footer .social-icons a
+{
+  font-size: 25px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:10px;
+  border-radius:100%;
+  
+}
+
+
+
+.copyright-text
+{
+  font-family: 'electrolize',sans-serif;
+  margin:0;
+  letter-spacing: 2px;
+  font-weight: 600;
+  
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+  margin-right: 5px;
+}
+
+
+@media (max-width:800px) {
+
+    .yazılımlar{
+        flex-direction: column;
+    }
+
+    .yazılımlar h1{
+        font-size: 25px;
+    }
+
+    .yazılımlar .yazılımlar-row{
+        width: 100%;
+    }
+    .sertifikalar .row .col {
+        mar: 20px;
+
+    }
+
+
+    .sertifikalar .row .col .content {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .sertifikalar .row .col .content .icons {
+        color: gold;
+        font-size: 10px;
+    }
+
+    .basarilar .container {
+        flex-direction: column;
+
+    }
+
+    .referanslar .card-container {
+        flex-direction: column;
+
+    }
+
+    .referanslar h1 a {
+        font-size: 30px;
+
+    }
+
+    .iletisim .container {
+        flex-direction: column;
+    }
+
+    .iletisim .container {
+        flex-direction: column;
+    }
+
+    .iletisim .container .image img {
+        display: none;
+    }
+
+    .referanslar .card-container .card p{
+        text-align: center;
+
+    }
+    @media (max-width: 480px) {
+        .half {
+            width: 100%;
+            float: none;
+            margin-bottom: 0;
+        }      
+
+
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+}
